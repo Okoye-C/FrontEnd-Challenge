@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Outfit;
+  src: url(Outfit-Regular.woff);
+}
+body{
+  background-color: #D5E1EF;
+  padding-left: 40%;
+  padding-right: 35%;
+  padding-top: 10%;
+}
+@media screen and (max-width: 1000px) {
+  body{
+    padding-left: 28%;
+    padding-right: 22%;
+    padding-top: 14%;
+  }
+}
+@media screen and (max-width: 700px) {
+  body{
+    padding-left: 20%;
+    padding-right: 15%;
+    padding-top: 20%;
+  }
+
+}
+@media screen and (min-width: 1440px) {
+  body{
+    padding-left: 37%;
+    padding-right: 40%;
+    padding-top: 10%;
+  }
+}
+.group{
+  text-align: center;
+  background-color: white;
+  color: #1E2A38;
+  padding: 6%;
+  border: solid;
+  border-radius: 3%;
+  border-color: white;
+  font-family: Outfit;
+}
+img{
+  display: block;
+  width: 100%;
+  border: solid;
+  border-radius: 10%;
+  border-color: #2B7DFA;
+}
+.fs{
+  font-weight:900;
+  font-size: 18px;
+}
+.ss{
+  font-weight: 400;
+  font-size: 13px;
+  color: hsl(220, 15%, 55%);
+
+}
